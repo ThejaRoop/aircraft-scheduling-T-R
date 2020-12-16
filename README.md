@@ -1,20 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It contains everything needed to get started on our take-home challenge, so go
-ahead and hack!
-
 ## Available Scripts
+
+Unzip the file and go to project directory
 
 In the project directory, you can run:
 
-### `npm start` or `yarn start`
+### `npm i` 
+
+After installations, you can run as below for running the project
+
+### `npm run start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test` or `yarn test`
+Description of the application:
+1.Application initially loads the Aircrafts and the flights of page 1.
+2.10 flights are displayed initially in right section. Flights are displayed in multiple pages. Each page consists of 10 flights. 
+User can move from one page to another page using pagination bar below in the right section.
+3.User can selet a flight for rotation by cliking on it in the right section or remove it from the rotation section by clicking 'remove'.
+4.As the flights are selected for rotation, percentage utilization of aircraft is displayed in the left section and
+aircraft timeline is updated accordingly in the rotation section.
+5.Application does not allow flights scheduled at midnight.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Below are the functionalities of the application.
+1.All aircrafts are on the ground at midnight.
+2.The turnaround time (minimum time between the end of a flight and the beginning of the next one) is always 20min for our airline.
+
+
+  
